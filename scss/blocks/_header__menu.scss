@@ -1,7 +1,14 @@
-.header__menu {
-    display: flex;
-    align-items: center;
-    &__logo{
-        padding: 137px 13px 6px 0px;
+.header {
+    &__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &__logo {
+            margin: 13px 6px 0px 137px;
+            &__img {
+                max-width: 202px;
+                max-height: 78px;
+            }
+        }
     }
 }
