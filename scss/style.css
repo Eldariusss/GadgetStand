@@ -42,5 +42,21 @@ table {
   border-spacing: 0;
 }
 
-/*font-family: 'Inter', sans-serif;*/
-/*font-family: 'Philosopher', sans-serif;*//*# sourceMappingURL=style.css.map */
+.header {
+  max-width: 1440px;
+  color: #FFF;
+  background-image: url(/img/bg/bg-header.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% auto;
+  background-color: rgba(68, 66, 55, 0.6980392157);
+  background-blend-mode: multiply;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+.header__menu__logo {
+  padding: 137px 13px 6px 0px;
+}/*# sourceMappingURL=style.css.map */
