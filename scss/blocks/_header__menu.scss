@@ -26,15 +26,11 @@
         font-family: 'Inter', sans-serif;
         font-size: 18px;
         font-weight: 500;
-        a {
-            margin-right: 40px;
-            list-style: none;
-            text-decoration: none;
-        a :last-child {
-            margin-right: 0px; 
-            /* не работает*/
-        }
+        margin-right: 40px;
+        list-style: none;
+        text-decoration: none;
+        &:last-child {
+            margin-right: 0px;
         }
     }
-
 }

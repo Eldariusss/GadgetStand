@@ -1,4 +1,3 @@
-@charset "UTF-8";
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -77,15 +76,12 @@ table {
   font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 500;
-}
-.menu-main__item a {
   margin-right: 40px;
   list-style: none;
   text-decoration: none;
 }
-.menu-main__item a a :last-child {
+.menu-main__item:last-child {
   margin-right: 0px;
-  /* не работает*/
 }
 
 .container {
