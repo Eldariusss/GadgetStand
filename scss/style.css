@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -7,6 +8,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   border: 0;
   font-size: 100%;
+  color: #FFF;
   font: inherit;
   vertical-align: baseline;
   text-rendering: optimizeLegibility;
@@ -70,13 +72,20 @@ table {
   padding: 50px 46px 0px 0px;
   display: flex;
 }
+.menu-main__item {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
 .menu-main__item a {
+  margin-right: 40px;
   list-style: none;
   text-decoration: none;
-  margin-right: 40px;
 }
-.menu-main__item a:last-child {
+.menu-main__item a a :last-child {
   margin-right: 0px;
+  /* не работает*/
 }
 
 .container {

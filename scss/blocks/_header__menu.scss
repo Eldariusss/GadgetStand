@@ -22,13 +22,19 @@
         display: flex;
     }
     &__item {
+        color: #FFF;
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
         a {
+            margin-right: 40px;
             list-style: none;
             text-decoration: none;
-            margin-right: 40px;
+        a :last-child {
+            margin-right: 0px; 
+            /* не работает*/
         }
-        a:last-child {
-            margin-right: 0px;
         }
     }
+
 }
