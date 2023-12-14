@@ -57,12 +57,26 @@ table {
   justify-content: center;
   align-items: center;
 }
-.header__menu__logo {
-  margin: 13px 6px 0px 137px;
+.header__logo {
+  padding: 13px 6px 0px 137px;
 }
-.header__menu__logo__img {
+
+.logo__img {
   max-width: 202px;
-  max-height: 78px;
+  min-height: 78px;
+}
+
+.menu-main__list {
+  padding: 50px 46px 0px 0px;
+  display: flex;
+}
+.menu-main__item a {
+  list-style: none;
+  text-decoration: none;
+  margin-right: 40px;
+}
+.menu-main__item a:last-child {
+  margin-right: 0px;
 }
 
 .container {

@@ -3,12 +3,32 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        &__logo {
-            margin: 13px 6px 0px 137px;
-            &__img {
-                max-width: 202px;
-                max-height: 78px;
-            }
+    }
+    &__logo {
+            padding: 13px 6px 0px 137px;
+    }
+}
+
+.logo {
+    &__img {
+        max-width: 202px;
+        min-height: 78px;
+    }
+}
+
+.menu-main {
+    &__list {
+        padding: 50px 46px 0px 0px;
+        display: flex;
+    }
+    &__item {
+        a {
+            list-style: none;
+            text-decoration: none;
+            margin-right: 40px;
+        }
+        a:last-child {
+            margin-right: 0px;
         }
     }
 }
