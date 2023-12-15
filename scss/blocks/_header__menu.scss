@@ -2,14 +2,13 @@
     &__menu {
         display: flex;
         justify-content:space-between;
-        align-items: center;
+        align-items: flex-end;
     }
 }
 
 .logo {
     &__img {
-        max-width: 202px;
-        max-height: 78px;
+        
     }
 }
 
