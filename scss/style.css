@@ -55,7 +55,7 @@ table {
 
 .header__menu {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -80,14 +80,13 @@ table {
   margin-right: 0px;
 }
 
-.social-media__link {
-  margin-right: 20px;
-}
-.social-media__link:first-child {
-  margin-left: 46px;
-}
-.social-media__link:last-child {
-  margin-right: 0px;
+.social-media {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-end;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
 }
 .social-media__img {
   text-decoration: none;

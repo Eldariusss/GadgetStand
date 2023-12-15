@@ -1,7 +1,7 @@
 .header {
     &__menu {
         display: flex;
-        justify-content: center;
+        justify-content:space-between;
         align-items: center;
     }
 }
@@ -32,15 +32,12 @@
 }
 
 .social-media {
-    &__link{
-        margin-right: 20px;
-        &:first-child {
-            margin-left: 46px;
-        }
-        &:last-child {
-            margin-right: 0px;
-        }
-    }
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 30px;
+    
     &__img {
         text-decoration: none;
     }
