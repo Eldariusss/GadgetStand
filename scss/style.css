@@ -61,7 +61,7 @@ table {
 
 .logo__img {
   max-width: 202px;
-  min-height: 78px;
+  max-height: 78px;
 }
 
 .menu-main__list {
@@ -78,6 +78,19 @@ table {
 }
 .menu-main__item:last-child {
   margin-right: 0px;
+}
+
+.social-media__link {
+  margin-right: 20px;
+}
+.social-media__link:first-child {
+  margin-left: 46px;
+}
+.social-media__link:last-child {
+  margin-right: 0px;
+}
+.social-media__img {
+  text-decoration: none;
 }
 
 .container {

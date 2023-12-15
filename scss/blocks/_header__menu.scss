@@ -9,7 +9,7 @@
 .logo {
     &__img {
         max-width: 202px;
-        min-height: 78px;
+        max-height: 78px;
     }
 }
 
@@ -28,5 +28,20 @@
         &:last-child {
             margin-right: 0px;
         }
+    }
+}
+
+.social-media {
+    &__link{
+        margin-right: 20px;
+        &:first-child {
+            margin-left: 46px;
+        }
+        &:last-child {
+            margin-right: 0px;
+        }
+    }
+    &__img {
+        text-decoration: none;
     }
 }
