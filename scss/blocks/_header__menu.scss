@@ -12,6 +12,7 @@
         display: flex;
     }
     &__item {
+        cursor: pointer;
         color: #FFF;
         font-family: 'Inter', sans-serif;
         font-size: 18px;
@@ -21,6 +22,10 @@
         text-decoration: none;
         &:last-child {
             margin-right: 0px;
+        }
+        :hover {
+            color: #9EAF7C;
+            text-decoration-line: underline;
         }
     }
 }
@@ -35,4 +40,21 @@
     &__img {
         text-decoration: none;
     }
+}
+
+.title {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: start;
+    margin-top: 70px;
+}
+
+.subtitle {
+    color: #FFF;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    margin-top: 11px;
 }

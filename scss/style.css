@@ -70,6 +70,7 @@ img {
   display: flex;
 }
 .menu-main__item {
+  cursor: pointer;
   color: #FFF;
   font-family: "Inter", sans-serif;
   font-size: 18px;
@@ -80,6 +81,10 @@ img {
 }
 .menu-main__item:last-child {
   margin-right: 0px;
+}
+.menu-main__item :hover {
+  color: #9EAF7C;
+  text-decoration-line: underline;
 }
 
 .social-media {
@@ -94,10 +99,43 @@ img {
   text-decoration: none;
 }
 
+.title {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  text-align: start;
+  margin-top: 70px;
+}
+
+.subtitle {
+  color: #FFF;
+  font-family: "Philosopher", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  margin-top: 11px;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 40px;
+}
+
+.button {
+  color: #FFF;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  min-width: 560px;
+  min-height: 68px;
+  border-radius: 20px;
+  background: #9EAF7C;
+  display: inline-block;
+  padding: 20px 0;
+  margin-top: 70px;
 }
 
 /*font-family: 'Inter', sans-serif;*/
