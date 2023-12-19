@@ -139,27 +139,20 @@ img {
 }
 
 .advantages {
-  margin-top: 90px;
+  margin: 90px;
 }
 .advantages__list {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
 }
-
-.advantages__item__wrapper {
+.advantages__wrapper {
   -moz-column-gap: 25px;
        column-gap: 25px;
-  position: relative;
 }
-
-.advantages__wrapper__img-cercle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.advantages__wrapper__img-svg {
-  width: 80%;
-  height: auto;
+.advantages__img {
+  max-width: 81px;
+  border-radius: 50%;
+  background-color: #9EAF7C;
+  padding: 20px;
 }/*# sourceMappingURL=style.css.map */

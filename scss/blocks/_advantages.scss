@@ -1,28 +1,25 @@
 .advantages {
-    margin-top: 90px;
+    margin: 90px ;
     &__list {
         display: flex;
         justify-content: space-between;
         flex-direction: row;
     }
-}
-
-.advantages__item {
     &__wrapper {
         column-gap: 25px;
-        position: relative;
+    }
+    &__img {
+        max-width: 81px;
+        border-radius: 50%;
+        background-color: #9EAF7C;
+        padding: 20px;
+
+    }
+    &__img-svg {
+        
+
+        
+
     }
 }
 
-.advantages__wrapper {
-    &__img-cercle {
-        position: absolute;
-        top: 50%; 
-        left: 50%; 
-        transform: translate(-50%, -50%); 
-    }
-    &__img-svg {
-        width: 80%;
-        height: auto;
-    }
-}
