@@ -151,8 +151,13 @@ img {
        column-gap: 25px;
 }
 .advantages__img {
+  display: flex;
+  align-items: center;
   max-width: 81px;
   border-radius: 50%;
   background-color: #9EAF7C;
   padding: 20px;
+}
+.advantages .p {
+  margin-left: 15px;
 }/*# sourceMappingURL=style.css.map */

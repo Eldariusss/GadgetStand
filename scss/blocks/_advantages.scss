@@ -9,17 +9,16 @@
         column-gap: 25px;
     }
     &__img {
+        display: flex;
+        align-items: center;
         max-width: 81px;
         border-radius: 50%;
         background-color: #9EAF7C;
         padding: 20px;
 
     }
-    &__img-svg {
-        
-
-        
-
+    .p {
+        margin-left: 15px;
     }
 }
 
