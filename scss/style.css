@@ -146,18 +146,19 @@ img {
   justify-content: space-between;
   flex-direction: row;
 }
-.advantages__wrapper {
+.advantages__item-wrapper {
   -moz-column-gap: 25px;
        column-gap: 25px;
 }
 .advantages__img {
-  display: flex;
-  align-items: center;
   max-width: 81px;
   border-radius: 50%;
   background-color: #9EAF7C;
   padding: 20px;
 }
-.advantages .p {
-  margin-left: 15px;
+.advantages__txt {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */

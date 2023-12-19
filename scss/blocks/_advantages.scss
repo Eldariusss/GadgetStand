@@ -5,20 +5,21 @@
         justify-content: space-between;
         flex-direction: row;
     }
-    &__wrapper {
+    &__item-wrapper {
         column-gap: 25px;
     }
     &__img {
-        display: flex;
-        align-items: center;
         max-width: 81px;
         border-radius: 50%;
         background-color: #9EAF7C;
         padding: 20px;
 
     }
-    .p {
-        margin-left: 15px;
+    &__txt {
+        color: #FFF;
+        font-family: 'Inter', sans-serif;
+        font-size: 26px;
+        font-weight: 300; 
     }
 }
 
