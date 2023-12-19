@@ -1,4 +1,28 @@
 .advantages {
-    display: flex;
     margin-top: 90px;
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
+
+&__item {
+    &__wrapper {
+        column-gap: 25px;
+        position: relative;
+    }
+}
+
+&__wrapper {
+    &__img-cercle {
+        position: absolute;
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+    }
+    &__img-svg {
+        width: 80%;
+        height: auto;
+    }
 }
