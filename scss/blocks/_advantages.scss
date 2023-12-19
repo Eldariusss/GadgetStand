@@ -7,14 +7,14 @@
     }
 }
 
-&__item {
+.advantages__item {
     &__wrapper {
         column-gap: 25px;
         position: relative;
     }
 }
 
-&__wrapper {
+.advantages__wrapper {
     &__img-cercle {
         position: absolute;
         top: 50%; 

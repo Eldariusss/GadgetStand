@@ -143,7 +143,23 @@ img {
 }
 .advantages__list {
   display: flex;
-  align-items: baseline;
   justify-content: space-between;
   flex-direction: row;
+}
+
+.advantages__item__wrapper {
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  position: relative;
+}
+
+.advantages__wrapper__img-cercle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.advantages__wrapper__img-svg {
+  width: 80%;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */
