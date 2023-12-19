@@ -166,4 +166,10 @@ img {
   font-size: 26px;
   font-weight: 300;
   flex: 1;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.header__footer {
+  margin-top: 55px;
+}
+/*font-family: 'Inter', sans-serif;*/
+/*font-family: 'Philosopher', sans-serif;*//*# sourceMappingURL=style.css.map */
