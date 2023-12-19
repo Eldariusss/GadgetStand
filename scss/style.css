@@ -138,5 +138,7 @@ img {
   margin-top: 70px;
 }
 
-/*font-family: 'Inter', sans-serif;*/
-/*font-family: 'Philosopher', sans-serif;*//*# sourceMappingURL=style.css.map */
+.advantages {
+  display: flex;
+  margin-top: 90px;
+}/*# sourceMappingURL=style.css.map */
