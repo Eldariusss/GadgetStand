@@ -13,14 +13,14 @@
     &__img {
         max-width: 81px;
         border-radius: 50%;
-        background-color: #9EAF7C;
+        background-color: var(--green);
         padding: 20px;
         flex: 0 0 auto;
         margin-right: 10px;
 
     }
     &__txt {
-        color: #FFF;
+        color: var(--white);
         font-family: 'Inter', sans-serif;
         font-size: 26px;
         font-weight: 300; 
