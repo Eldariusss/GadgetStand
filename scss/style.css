@@ -59,6 +59,12 @@ img {
   background-blend-mode: multiply;
   padding: 30px 0 0 0;
 }
+.header__footer {
+  margin-top: 55px;
+  background-image: url("/img/icons/heart.svg");
+  height: 40px;
+  background: repeat;
+}
 
 .header__menu {
   display: flex;
@@ -168,8 +174,5 @@ img {
   flex: 1;
 }
 
-.header__footer {
-  margin-top: 55px;
-}
 /*font-family: 'Inter', sans-serif;*/
 /*font-family: 'Philosopher', sans-serif;*//*# sourceMappingURL=style.css.map */
