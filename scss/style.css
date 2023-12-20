@@ -23,6 +23,7 @@ footer, header, nav, section, main {
 
 body {
   line-height: 1;
+  background-color: #F3F1EC;
 }
 
 ol, ul {
@@ -61,9 +62,8 @@ img {
 }
 .header__footer {
   margin-top: 55px;
-  background-image: url("/img/icons/heart.svg");
-  height: 40px;
-  background: repeat;
+  background-image: url(/img/icons/heart.svg);
+  height: 19px;
 }
 
 .header__menu {
