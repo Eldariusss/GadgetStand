@@ -1,8 +1,10 @@
-
-
-.history__desc {
-    margin: 10px 25px 0 0;
-&__list {
-    display: flex;
+.history {
+    &__desc {
+        margin: 10px 25px 0 0;
+        display: flex;
+    }
+    &__list {
+        background: red;
+    }
 }
-}
+
