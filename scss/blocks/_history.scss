@@ -1,10 +1,39 @@
 .history {
     &__desc {
         margin: 10px 25px 0 0;
-        display: flex;
     }
     &__list {
-        
+        display: flex;
+        justify-content: flex-start;
+
     }
 }
 
+.history-item {
+    &__wrapper {
+        position: relative;
+        min-width: 490px;
+        min-height: 200px;
+    }
+    &__oval {
+        position: absolute;
+        width: 480px;
+        height: 126px;
+        border:  1px solid #9EAF7C;
+        border-radius: 50%;
+    }
+}
+
+
+
+.oval-center {
+    top:25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.oval-angle {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
