@@ -265,6 +265,17 @@ img {
   left: 50%;
   transform: translate(-50%, -50%) rotate(10deg);
 }
+.history-item__title {
+  color: #9EAF7C;
+  text-align: center;
+  color: var(--green);
+  font-weight: 700;
+}
+.history-item__subtitle {
+  color: var(--black);
+  text-align: center;
+  font-weight: 300;
+}
 
 /*font-family: 'Inter', sans-serif;*/
 /*font-family: 'Philosopher', sans-serif;*//*# sourceMappingURL=style.css.map */

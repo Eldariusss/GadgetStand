@@ -11,6 +11,10 @@
         min-width: 490px;
         min-height: 200px;
     }
+
+    &__wrapper-oval {
+        
+    }
     &__oval {
         position: absolute;
         width: 480px;
@@ -34,6 +38,17 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) rotate(10deg);
+    }
+    &__title {
+        color: #9EAF7C;
+        text-align: center;
+        color: var(--green);
+        font-weight: 700; 
+    }
+    &__subtitle {
+        color: var(--black);
+        text-align: center;
+        font-weight: 300; 
     }
 }
 
