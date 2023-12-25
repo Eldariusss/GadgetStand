@@ -1,11 +1,7 @@
 .history {
     &__desc {
         margin: 10px 25px 0 0;
-    }
-    &__list {
         display: flex;
-        justify-content: flex-start;
-
     }
 }
 
@@ -22,18 +18,22 @@
         border:  1px solid #9EAF7C;
         border-radius: 50%;
     }
+    .oval-center {
+        top:25px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .oval-angle {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-10deg);
+    }
+    
+    .even {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(10deg);
+    }
 }
 
-
-
-.oval-center {
-    top:25px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.oval-angle {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-10deg);
-}
