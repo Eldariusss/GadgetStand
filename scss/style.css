@@ -237,6 +237,9 @@ img {
   margin: 10px 25px 0 0;
   display: flex;
 }
+.history__make-order-link {
+  margin-top: 7px;
+}
 
 .history-item__wrapper {
   position: relative;
@@ -251,17 +254,17 @@ img {
   border-radius: 50%;
 }
 .history-item .oval-center {
-  top: 25px;
+  top: 15px;
   left: 50%;
   transform: translateX(-50%);
 }
 .history-item .oval-angle {
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-10deg);
 }
 .history-item .even {
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(10deg);
 }
@@ -278,6 +281,17 @@ img {
   color: var(--black);
   text-align: center;
   font-weight: 300;
+}
+
+.history__photo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.photo__img {
+  max-width: 561px;
+  min-height: 683px;
 }
 
 /*font-family: 'Inter', sans-serif;*/
