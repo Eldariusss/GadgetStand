@@ -271,6 +271,9 @@ img {
   color: var(--green);
   font-weight: 700;
 }
+.history-item .low-font {
+  font-size: 50px;
+}
 .history-item__subtitle {
   color: var(--black);
   text-align: center;
