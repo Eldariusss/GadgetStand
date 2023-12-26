@@ -1,4 +1,10 @@
 .history {
+    &__wrapper {
+        display: flex;
+    }
+    &__wrapper-block {
+        column-gap: 110px;
+    }
     &__desc {
         margin: 10px 25px 0 0;
         display: flex;
@@ -61,8 +67,6 @@
 }
 
 .history__photo {
-    display: flex;
-    justify-content: flex-end;
 }
 .photo__img {
     max-width: 561px;
