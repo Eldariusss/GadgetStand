@@ -3,6 +3,9 @@
         margin: 10px 25px 0 0;
         display: flex;
     }
+    &__list {
+        margin-right: 30px;
+    }
     &__make-order-link {
         margin-top: 7px;
     }
@@ -60,7 +63,6 @@
 .history__photo {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
 }
 .photo__img {
     max-width: 561px;

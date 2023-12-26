@@ -237,6 +237,9 @@ img {
   margin: 10px 25px 0 0;
   display: flex;
 }
+.history__list {
+  margin-right: 30px;
+}
 .history__make-order-link {
   margin-top: 7px;
 }
@@ -286,7 +289,6 @@ img {
 .history__photo {
   display: flex;
   justify-content: flex-end;
-  align-items: flex-start;
 }
 
 .photo__img {
