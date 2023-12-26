@@ -235,10 +235,11 @@ img {
 
 .history__wrapper {
   display: flex;
-}
-.history__wrapper-block {
-  -moz-column-gap: 110px;
-       column-gap: 110px;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
 }
 .history__desc {
   margin: 10px 25px 0 0;

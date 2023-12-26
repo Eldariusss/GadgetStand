@@ -1,9 +1,10 @@
 .history {
     &__wrapper {
         display: flex;
-    }
-    &__wrapper-block {
-        column-gap: 110px;
+        flex-flow: row nowrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        column-gap: 25px;
     }
     &__desc {
         margin: 10px 25px 0 0;
@@ -66,8 +67,6 @@
     }
 }
 
-.history__photo {
-}
 .photo__img {
     max-width: 561px;
     min-height: 683px;
