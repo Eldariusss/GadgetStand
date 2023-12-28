@@ -117,6 +117,7 @@ img {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100% auto;
+  max-width: 1440px;
   background-color: var(--bg-green);
   background-blend-mode: multiply;
   padding: 30px 0 0 0;
@@ -297,6 +298,15 @@ img {
 .photo__img {
   max-width: 561px;
   min-height: 683px;
+}
+
+.about {
+  background-image: url(/img/bg/about.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.about .container {
+  max-height: 832px;
 }
 
 /*font-family: 'Inter', sans-serif;*/
