@@ -5,22 +5,24 @@
     &__image {
         background-image: url(/img/bg/about.png);
         background-repeat: no-repeat;
-        background-position: center center;
+        background-size: 100% auto;
         position: absolute;
         top: 253px;
-        z-index: 1;
+        z-index: 2;
     }
     &__item {
         position: absolute;
         z-index: 2;
     }
     &__item-wrapper {
-        max-width: 459px;
+        width: 459px;
+        height: 180px;
         border-radius: 20px;
         border: 1px solid #C3BEBE;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.20) 0%, rgba(223, 224, 226, 0.20) 0.01%, rgba(143, 145, 149, 0.20) 100%);
         box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.11);
         backdrop-filter: blur(10.5px); 
+        position: absolute;
     }
     &__item-svg {
         width: 42px;
@@ -46,5 +48,28 @@
         top: 4px; 
         width: 1px; 
         height: 34px;
+    }
+
+    &__item-title {
+        color: var(--black);
+        padding: 0px 0 10px 43px;
+    }
+    &__item-subtitle {
+        color: var(--black);
+        padding-left: 43px;
+    }
+}
+
+.about__item-wrapper {
+    &-z1 {
+
+    }
+    &-z2 {
+        z-index: 0;
+        left: 900px;
+        top: 55px;
+    }
+    &-z3 {
+        z-index: 3;
     }
 }
