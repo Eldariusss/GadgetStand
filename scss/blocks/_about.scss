@@ -8,7 +8,7 @@
         background-size: 100% auto;
         position: absolute;
         top: 253px;
-        z-index: 2;
+        z-index: 1;
     }
     &__item {
         position: absolute;
@@ -28,8 +28,9 @@
         width: 42px;
         height: 42px;
         background-color: var(--green);
-        border-radius: 50%; /* Делает элемент круглым */
+        border-radius: 50%; 
         position: relative;
+        margin: 10px 0 0 10px;
     }
     &__item-svg::before,
     &__item-svg::after {
@@ -52,17 +53,24 @@
 
     &__item-title {
         color: var(--black);
-        padding: 0px 0 10px 43px;
+        padding: 0px 0 10px 63px;
+        margin-top: -23px;
     }
     &__item-subtitle {
         color: var(--black);
-        padding-left: 43px;
+        padding-left: 63px;
+    }
+    &__make-order-link {
+        top: 724px;
+        position: absolute;
+        z-index:1;
     }
 }
 
 .about__item-wrapper {
     &-z1 {
-
+        margin-top: 37px;
+    
     }
     &-z2 {
         z-index: 0;
@@ -71,5 +79,14 @@
     }
     &-z3 {
         z-index: 3;
+        left: 802px;
+        top: 602px;
+    }
+}
+
+.about__item-subtitle {
+    b{
+     font-weight: 600;  
+     color: var(--black); 
     }
 }
