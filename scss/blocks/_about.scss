@@ -5,25 +5,27 @@
     &__item {
         position: absolute;
         &-z1 {
-            top: 0px;
+            top: -144px;
             left: 0px;
             z-index: 2;
         
         }
         &-z2 {
             z-index: 1;
-            top: 0px;
-            right: 0px;
+            top: -100px;
+            right: 88px;
         }
         &-z3 {
             z-index: 2;
-            bottom:  0px;
-            right: 0px;
+            bottom: 107px;
+            right: 199px;
         }
     }
 
     &__image {
         margin-top: 200px;
+        position: relative;
+        z-index: 1;
     }
 
 
@@ -73,6 +75,11 @@
     &__item-subtitle {
         color: var(--black);
         padding-left: 63px;
+    }
+    &__make-order-link {
+        position: relative;
+        top:-108px;
+        z-index: 2;    
     }
 }
 
