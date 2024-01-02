@@ -300,21 +300,8 @@ img {
   min-height: 683px;
 }
 
-.about__wrapper {
-  position: relative;
-}
-.about__image {
-  background-image: url(/img/bg/about.png);
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  position: absolute;
-  top: 253px;
-  z-index: 1;
-}
-.about__item {
-  position: absolute;
-}
 .about__item-wrapper {
+  position: absolute;
   width: 459px;
   height: 180px;
   border-radius: 20px;
@@ -323,7 +310,6 @@ img {
   box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.11);
   -webkit-backdrop-filter: blur(10.5px);
           backdrop-filter: blur(10.5px);
-  position: absolute;
 }
 .about__item-svg {
   width: 42px;
@@ -358,11 +344,6 @@ img {
 .about__item-subtitle {
   color: var(--black);
   padding-left: 63px;
-}
-.about__make-order-link {
-  top: 724px;
-  position: absolute;
-  z-index: 1;
 }
 
 .about__item-subtitle b {
