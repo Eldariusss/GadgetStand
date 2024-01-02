@@ -12,7 +12,6 @@
     }
     &__item {
         position: absolute;
-        z-index: 2;
     }
     &__item-wrapper {
         width: 459px;
@@ -67,26 +66,27 @@
     }
 }
 
-.about__item-wrapper {
-    &-z1 {
-        margin-top: 37px;
-    
-    }
-    &-z2 {
-        z-index: 0;
-        left: 900px;
-        top: 55px;
-    }
-    &-z3 {
-        z-index: 3;
-        left: 802px;
-        top: 602px;
-    }
-}
-
 .about__item-subtitle {
     b{
      font-weight: 600;  
      color: var(--black); 
+    }
+}
+
+.about__item-wrapper {
+    &-z1 {
+        margin-top: 37px;
+        z-index: 2;
+    
+    }
+    &-z2 {
+        z-index: 1;
+        left: 900px;
+        top: 55px;
+    }
+    &-z3 {
+        z-index: 2;
+        left: 802px;
+        top: 602px;
     }
 }
