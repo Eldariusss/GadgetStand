@@ -9,12 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="scss/style.css">        
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
-    // Add the new slick-theme.css if you want the default styling
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
-				
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Philosopher:wght@400;700&display=swap" rel="stylesheet">     
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide">   
+    <link rel="stylesheet" href="https://unpkg.com/@glidejs/glide">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
 </head>
 <body>
     <header class="header">
@@ -134,16 +134,25 @@
     <section class="catalog section">
         <div class="container">
             <h2 class="section__title font_msp fz80">Каталог</h2>
-            <div class="catalog__slider">
-                <div class="catalog__slider-photo"><img class="catalog__slider-img" src="img/slider/sllider1.png" alt="range"></div>
-                <div class="catalog__slider-photo"><img class="catalog__slider-img" src="img/slider/sllider2.png" alt="range"></div>
-                <div class="catalog__slider-photo"><img class="catalog__slider-img" src="img/slider/sllider3.png" alt="range"></div>
-                <div class="catalog__slider-photo"><img class="catalog__slider-img" src="img/slider/sllider4.png" alt="range"></div>
-                <div class="catalog__slider-photo"><img class="catalog__slider-img" src="img/slider/sllider5.png" alt="range"></div>
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide"><img src="img/slider/sllider1.png" alt="range" class="glide__slide-img"></li>
+                        <li class="glide__slide"><img src="img/slider/sllider2.png" alt="range" class="glide__slide-img"></li>
+                        <li class="glide__slide"><img src="img/slider/sllider3.png" alt="range" class="glide__slide-img"></li>
+                        <li class="glide__slide"><img src="img/slider/sllider4.png" alt="range" class="glide__slide-img"></li>
+                        <li class="glide__slide"><img src="img/slider/sllider5.png" alt="range" class="glide__slide-img"></li>
+                    </ul>
+                </div>
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+                </div>
             </div>
-        </div>
+            <div data-glide-el="controls">
+                <button data-glide-dir="<<">Start</button>
+                <button data-glide-dir=">>">End</button>
+            </div>
     </section>
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
