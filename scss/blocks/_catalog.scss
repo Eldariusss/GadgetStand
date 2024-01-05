@@ -1,3 +1,26 @@
 .catalog {
-    
+   &__slider-photo {
+    width: 100%;
+   }
+   &__slider-img {
+    width: 100%;
+   } 
+}
+
+.glide {
+    &__slide {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.glide__arrows-left {
+    left: 0em;
+}
+
+.catalog__button-wrapper {
+    display: flex;
+    justify-content: center;
 }

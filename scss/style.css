@@ -381,5 +381,28 @@ img {
   color: var(--black);
 }
 
+.catalog__slider-photo {
+  width: 100%;
+}
+.catalog__slider-img {
+  width: 100%;
+}
+
+.glide__slide {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.glide__arrows-left {
+  left: 0em;
+}
+
+.catalog__button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 /*font-family: 'Inter', sans-serif;*/
 /*font-family: 'Philosopher', sans-serif;*//*# sourceMappingURL=style.css.map */
