@@ -391,7 +391,14 @@ img {
 .catalog__slider-img {
   width: 100%;
 }
+.catalog__button-wrapper {
+  display: flex;
+  justify-content: center;
+}
 
+.glide {
+  margin-top: 30px;
+}
 .glide__slide {
   display: flex;
   flex-flow: row nowrap;
@@ -399,13 +406,43 @@ img {
   justify-content: center;
 }
 
-.glide__arrows-left {
-  left: 0em;
+.application {
+  background-image: url(/img/bg/form-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: var(--bg-green);
+  background-blend-mode: multiply;
 }
-
-.catalog__button-wrapper {
+.application__decor {
+  background-image: url(/img/icons/heart_d.svg);
+  height: 70px;
+  margin-top: -52px;
+  background-repeat: repeat-x;
+}
+.application__headers {
+  display: flex;
+  flex-direction: column;
+}
+.application__subtitle {
+  margin-top: 20px;
+}
+.application__undersubtitle {
   display: flex;
   justify-content: center;
+}
+.application__form {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.application__name {
+  display: inline-flex;
+  padding: 19px 365px 19px 22px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  background: var(--white);
 }
 
 /*font-family: 'Inter', sans-serif;*/

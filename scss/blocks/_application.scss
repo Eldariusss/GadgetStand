@@ -1,0 +1,40 @@
+.application {
+    background-image: url(/img/bg/form-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: var(--bg-green);
+    background-blend-mode: multiply;
+    
+    &__decor {
+        background-image: url(/img/icons/heart_d.svg);
+        height: 70px;
+        margin-top: -52px;
+        background-repeat: repeat-x;
+    }
+    &__headers {
+        display: flex;
+        flex-direction: column;
+    }
+    &__subtitle {
+        margin-top: 20px;
+    }
+    &__undersubtitle {
+        display: flex;
+        justify-content: center;
+    }
+    &__form {
+        margin-top: 30px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    &__name {
+        display: inline-flex;
+        padding: 19px 365px 19px 22px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 60px;
+        background: var(--white);
+    }
+}
+

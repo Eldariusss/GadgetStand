@@ -143,21 +143,41 @@
                     </ul>
                 </div>
                 <div class="glide__arrows" data-glide-el="controls">
-                    <button class="glide__arrow glide__arrow--left glide__arrows-left" data-glide-dir="<">назад</button>
-                    <button class="glide__arrow glide__arrow--right glide__arrows-right" data-glide-dir=">">вперёд</button>
+                    <button class="glide__arrow glide__arrow--left glide__arrows-left" data-glide-dir="<" style="color: var(--black);">назад</button>
+                    <button class="glide__arrow glide__arrow--right glide__arrows-right" data-glide-dir=">" style="color: var(--black);">вперёд</button>
                 </div>
             </div>
             <div class="catalog__button-wrapper">
                 <a href="#" class="catalog__make-order-link button">Сделать заказ</a>
             </div>
     </section>
-    <section class="form section">
+    <section class="application section">
+        <div class="application__decor"></div>
         <div class="container">
-            <div class="form__decor"></div>
-            <div class="form__title fz50">Ничего не подошло?</div>
-            <div class="form__subtitle fz42">Тогда мы можем изготовить для вас мебель</div>
-            <div class="form__undersubtitle font_msp fz80">по индивидуальному дизайну</div>
+            <div class="application__headers">
+                <div class="application__title fz50">Ничего не подошло?</div>
+                <div class="application__subtitle fz42">Тогда мы можем изготовить для вас мебель</div>
+                <div class="application__undersubtitle font_msp fz80">по индивидуальному дизайну</div>
+            </div>
+            <form class="application__form" action="#" method="post">
+                <div class="application__name">
+                  <label for="name">Имя:</label>
+                  <input type="text" id="name" name="Ваше имя*" required>
+                </div>
+                <div class="application__phone">
+                  <label for="phone">Телефон:</label>
+                  <input type="tel" id="phone" name="Ваш телефон*" required>
+                </div>
+                <div class="application__comment">
+                  <label for="comment">Комментарий:</label>
+                  <textarea id="comment" name="Комментарий" required></textarea>
+                </div>
+                <div>
+                    <a href="#" class="about__make-order-link button">Сделать заказ</a>
+                </div>
+            </form>
         </div>
+        
     </section>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
     <script src="js/script.js"></script>
