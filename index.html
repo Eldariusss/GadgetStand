@@ -160,24 +160,14 @@
                 <div class="application__undersubtitle font_msp fz80">по индивидуальному дизайну</div>
             </div>
             <form class="application__form" action="#" method="post">
-                <div class="application__name">
-                  <label for="name">Имя:</label>
-                  <input type="text" id="name" name="Ваше имя*" required>
-                </div>
-                <div class="application__phone">
-                  <label for="phone">Телефон:</label>
-                  <input type="tel" id="phone" name="Ваш телефон*" required>
-                </div>
-                <div class="application__comment">
-                  <label for="comment">Комментарий:</label>
-                  <textarea id="comment" name="Комментарий" required></textarea>
-                </div>
-                <div>
-                    <a href="#" class="about__make-order-link button">Сделать заказ</a>
-                </div>
+                <input class="application__name application__input" name="name" required placeholder="Ваше имя:" type="text"> 
+                <input class="application__phone application__input" name="phone" required placeholder="Ваш телефон:"> 
+                <input class="application__comment application__input" name="comment" required placeholder="Ваш комментарий:" type="te"> 
+                <div class="application__agreement fz12">Нажимая на кнопку, вы даете согласие на <b>обработку персональных даных</b></div>
+                <a href="#" class="application__make-order-link button">Сделать заказ</a>
             </form>
         </div>
-        
+        <div class="application__decor application__footer"></div>
     </section>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
     <script src="js/script.js"></script>

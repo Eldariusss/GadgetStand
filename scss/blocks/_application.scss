@@ -4,6 +4,7 @@
     background-size: 100% auto;
     background-color: var(--bg-green);
     background-blend-mode: multiply;
+    margin-top: 50px;
     
     &__decor {
         background-image: url(/img/icons/heart_d.svg);
@@ -27,14 +28,37 @@
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
+        width: 560px;
     }
-    &__name {
-        display: inline-flex;
-        padding: 19px 365px 19px 22px;
+    &__input {
+        display:flex;
+        padding: 19px 0px 19px 22px;
         justify-content: center;
         align-items: center;
         border-radius: 60px;
         background: var(--white);
     }
+    &__phone {
+        margin-top: 20px;
+    }
+    &__comment {
+        margin-top: 20px;
+        min-height: 110px;
+    }
+    &__agreement {
+        margin-top: 31px;
+    }
+    b {
+        color: var(--green);
+    }
+    &__make-order-link {
+        margin-top: 40px;
+    }
+    &__footer {
+        background-image: url(/img/icons/heart.svg);
+        margin-top: 65px;
+        height: 19px;
+    }
 }
+
 
