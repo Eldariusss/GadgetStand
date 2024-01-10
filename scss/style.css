@@ -472,5 +472,9 @@ img {
   height: 19px;
 }
 
+.application__input:nth-child(3) {
+  border-radius: 20px;
+}
+
 /*font-family: 'Inter', sans-serif;*/
 /*font-family: 'Philosopher', sans-serif;*//*# sourceMappingURL=style.css.map */

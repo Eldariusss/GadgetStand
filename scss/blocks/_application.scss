@@ -61,4 +61,8 @@
     }
 }
 
-
+.application__input {
+    &:nth-child(3) {
+        border-radius: 20px; 
+    }
+}
