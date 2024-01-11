@@ -20,6 +20,15 @@
             bottom: 107px;
             right: 199px;
         }
+        @media screen and (max-width: 1200px) {
+            &-z2 {
+                right: 5px;
+                top: -114px;
+            }
+            &-z3 {
+                right: 59px;
+            }
+        }
     }
 
     &__image {

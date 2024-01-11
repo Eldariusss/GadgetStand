@@ -329,6 +329,15 @@ img {
   bottom: 107px;
   right: 199px;
 }
+@media screen and (max-width: 1200px) {
+  .about__item-z2 {
+    right: 5px;
+    top: -114px;
+  }
+  .about__item-z3 {
+    right: 59px;
+  }
+}
 .about__image {
   margin-top: 200px;
   position: relative;
@@ -418,6 +427,11 @@ img {
   background-blend-mode: multiply;
   margin-top: 50px;
 }
+@media screen and (max-width: 1200px) {
+  .application {
+    background-repeat: round;
+  }
+}
 .application__decor {
   background-image: url(/img/icons/heart_d.svg);
   height: 70px;
@@ -468,7 +482,7 @@ img {
 }
 .application__footer {
   background-image: url(/img/icons/heart.svg);
-  margin-top: 65px;
+  margin-top: 48px;
   height: 19px;
 }
 

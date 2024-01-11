@@ -5,6 +5,9 @@
     background-color: var(--bg-green);
     background-blend-mode: multiply;
     margin-top: 50px;
+    @media  screen and (max-width: 1200px) {
+        background-repeat: round;
+    }
     
     &__decor {
         background-image: url(/img/icons/heart_d.svg);
@@ -56,7 +59,7 @@
     }
     &__footer {
         background-image: url(/img/icons/heart.svg);
-        margin-top: 65px;
+        margin-top: 48px;
         height: 19px;
     }
 }
