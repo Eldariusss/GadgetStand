@@ -140,6 +140,11 @@ img {
   justify-content: space-between;
   align-items: flex-end;
 }
+@media screen and (max-width: 1000px) {
+  .header .logo__img {
+    max-width: 87%;
+  }
+}
 
 .menu-main__list {
   display: flex;
@@ -159,6 +164,11 @@ img {
   color: var(--green);
   text-decoration-line: underline;
 }
+@media screen and (max-width: 1000px) {
+  .menu-main__item {
+    font-size: 14px;
+  }
+}
 
 .social-media {
   display: flex;
@@ -168,8 +178,25 @@ img {
   -moz-column-gap: 30px;
        column-gap: 30px;
 }
+@media screen and (max-width: 1000px) {
+  .social-media {
+    -moz-column-gap: 16px;
+         column-gap: 16px;
+  }
+}
 .social-media__img {
   text-decoration: none;
+}
+@media screen and (max-width: 1000px) {
+  .social-media__img {
+    max-width: 89%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .social-media {
+    -moz-column-gap: 13px;
+         column-gap: 13px;
+  }
 }
 
 .title {
@@ -178,11 +205,22 @@ img {
   text-align: start;
   margin-top: 70px;
 }
+@media screen and (max-width: 1000px) {
+  .title {
+    font-size: 40px;
+  }
+}
 
 .subtitle {
   color: var(--white);
   font-weight: 400;
   margin-top: 15px;
+}
+@media screen and (max-width: 1000px) {
+  .subtitle {
+    font-size: 70px;
+    margin-top: 10px;
+  }
 }
 
 .container {
@@ -213,6 +251,12 @@ img {
   padding: 20px 0;
   margin-top: 70px;
 }
+@media screen and (max-width: 1000px) {
+  .button {
+    min-width: 500px;
+    min-height: 63px;
+  }
+}
 
 .advantages {
   margin-top: 90px;
@@ -236,10 +280,20 @@ img {
   flex: 0 0 auto;
   margin-right: 10px;
 }
+@media screen and (max-width: 1000px) {
+  .advantages__img {
+    max-width: 70px;
+  }
+}
 .advantages__txt {
   color: var(--white);
   font-weight: 300;
   flex: 1;
+}
+@media screen and (max-width: 1000px) {
+  .advantages__txt {
+    font-size: 21px;
+  }
 }
 
 .history__wrapper {
@@ -253,6 +307,11 @@ img {
 .history__desc {
   margin: 10px 25px 0 0;
   display: flex;
+}
+@media screen and (max-width: 1000px) {
+  .history__desc {
+    margin-right: -19px;
+  }
 }
 .history__list {
   margin-right: 30px;
@@ -306,6 +365,11 @@ img {
 .photo__img {
   max-width: 561px;
   min-height: 683px;
+}
+@media screen and (max-width: 1000px) {
+  .photo__img {
+    max-width: 432px;
+  }
 }
 
 .about__wrapper {
@@ -492,7 +556,4 @@ img {
 
 .contact__map {
   margin-top: 60px;
-}
-
-/*font-family: 'Inter', sans-serif;*/
-/*font-family: 'Philosopher', sans-serif;*//*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

@@ -9,6 +9,9 @@
     &__desc {
         margin: 10px 25px 0 0;
         display: flex;
+        @media screen and (max-width: 1000px) {
+            margin-right: -19px;
+        }
     }
     &__list {
         margin-right: 30px;
@@ -70,4 +73,7 @@
 .photo__img {
     max-width: 561px;
     min-height: 683px;
+    @media screen and (max-width: 1000px) {
+        max-width: 432px;
+    }
 }
