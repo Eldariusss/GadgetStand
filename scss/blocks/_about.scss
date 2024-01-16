@@ -19,6 +19,9 @@
             z-index: 2;
             bottom: 107px;
             right: 199px;
+            @media screen and (max-width: 1000px) {
+                right: 28px;
+            }
         }
         @media screen and (max-width: 1200px) {
             &-z2 {
@@ -40,7 +43,6 @@
 
 
     &__item-wrapper {
-
         width: 459px;
         height: 180px;
         border-radius: 20px;
@@ -48,6 +50,10 @@
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.20) 0%, rgba(223, 224, 226, 0.20) 0.01%, rgba(143, 145, 149, 0.20) 100%);
         box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.11);
         backdrop-filter: blur(10.5px); 
+        @media screen and (max-width: 1000px) {
+            width: 391px;
+            height: 160px;
+        }
     }
     &__item-svg {
         width: 42px;
@@ -80,10 +86,16 @@
         color: var(--black);
         padding: 0px 0 10px 63px;
         margin-top: -23px;
+        @media screen and (max-width: 1000px) {
+            font-size: 26px;
+        }
     }
     &__item-subtitle {
         color: var(--black);
         padding-left: 63px;
+        @media screen and (max-width: 1000px) {
+            font-size: 17px;
+        }
     }
     &__make-order-link {
         position: relative;

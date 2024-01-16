@@ -10,7 +10,7 @@
         margin: 10px 25px 0 0;
         display: flex;
         @media screen and (max-width: 1000px) {
-            margin-right: -19px;
+            margin-right: -54px;
         }
     }
     &__list {
@@ -26,6 +26,9 @@
         position: relative;
         min-width: 490px;
         min-height: 200px;
+        @media screen and (max-width: 1000px) {
+            max-width: 428px;
+        }
     }
 
     &__oval {
@@ -34,25 +37,40 @@
         height: 126px;
         border:  1px solid #9EAF7C;
         border-radius: 50%;
+        @media screen and (max-width: 1000px) {
+            width: 439px;
+        }
     }
     .oval-center {
         top:15px;
         left: 50%;
         transform: translateX(-50%);
+        @media screen and (max-width: 1000px) {
+            top: -2px;
+            left: 44%;
+        }
     }
     
     .oval-angle {
         top: 40%;
         left: 50%;
         transform: translate(-50%, -50%) rotate(-10deg);
+        @media screen and (max-width: 1000px) {
+            top: 36%;
+            left: 44%;
+        }
     }
     
     .even {
         top: 40%;
         left: 50%;
         transform: translate(-50%, -50%) rotate(10deg);
+        @media screen and (max-width: 1000px) {
+            top: 36%;
+            left: 44%;
+        }
     }
-    &__title {
+    &__title { 
         color: #9EAF7C;
         text-align: center;
         color: var(--green);
@@ -74,6 +92,6 @@
     max-width: 561px;
     min-height: 683px;
     @media screen and (max-width: 1000px) {
-        max-width: 432px;
+        max-width: 463px;
     }
 }

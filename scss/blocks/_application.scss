@@ -19,12 +19,24 @@
         display: flex;
         flex-direction: column;
     }
+    &__title {
+        @media screen and (max-width: 1000px) {
+            font-size: 45px;
+        }
+    }
     &__subtitle {
         margin-top: 20px;
+        @media screen and (max-width: 1000px) {
+            margin-top: 4px;   
+        }
     }
     &__undersubtitle {
         display: flex;
         justify-content: center;
+        @media screen and (max-width: 1000px) {
+            font-size: 73px;
+            line-height: 60px;   
+        }
     }
     &__form {
         margin-top: 30px;
@@ -32,6 +44,9 @@
         justify-content: flex-start;
         flex-direction: column;
         width: 560px;
+        @media screen and (max-width: 1000px) {
+            width: 503px;
+        }
     }
     &__input {
         display:flex;
