@@ -4,10 +4,15 @@
         justify-content:space-between;
         align-items: flex-end;
     }
-    @media screen and (max-width: 1000px) {
-        .logo__img {
+   
+    .logo__img {
+        @media screen and (max-width: 1000px) {
             max-width: 87%;
         }
+        @media screen and (max-width: 740px) {
+                max-width: 75%;
+        }   
+        
     }
 }
 
@@ -15,6 +20,9 @@
 .menu-main {
     &__list {
         display: flex;
+        @media screen and (max-width: 740px) {
+            margin-left: -50px;
+        }
     }
     &__item {
         cursor: pointer;
@@ -33,9 +41,12 @@
         @media screen and (max-width: 1000px) {
             font-size: 14px;
         }
+        @media screen and (max-width: 740px) {
+            font-size: 11px;
+            margin-right: 22px;
+        }
     }
 }
-
 .social-media {
     display: flex;
     flex-flow: row nowrap;
@@ -45,15 +56,18 @@
     @media screen and (max-width: 1000px) {
         column-gap: 16px;
     }
+    @media screen and (max-width: 740px) {
+        column-gap: 3px;
+    }
     
     &__img {
         text-decoration: none;
         @media screen and (max-width: 1000px) {
             max-width: 89%;
         }
-    }
-    @media screen and (max-width: 1000px) {
-        column-gap: 13px;
+        @media screen and (max-width: 740px) {
+            max-width: 77%;
+        }
     }
 }
 
@@ -65,6 +79,9 @@
     @media screen and (max-width: 1000px) {
         font-size: 40px;
     }
+    @media screen and (max-width: 740px) {
+        font-size: 36px;
+    }
 }
 
 .subtitle {
@@ -74,5 +91,8 @@
     @media screen and (max-width: 1000px) {
         font-size: 70px;
         margin-top: 10px;
+    }
+    @media screen and (max-width: 740px) {
+        font-size: 63px;
     }
 }

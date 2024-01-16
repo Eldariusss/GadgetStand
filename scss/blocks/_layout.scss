@@ -3,6 +3,9 @@
     margin: 0 auto;
     padding: 0 40px; 
     position: relative;
+    @media screen and (max-width: 792px){
+        padding: 0 10px;
+      }
 }
 
 .section {
