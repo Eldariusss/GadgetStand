@@ -5,6 +5,7 @@
         align-items: flex-start;
         justify-content: space-between;
         column-gap: 25px;
+        
     }
     &__desc {
         margin: 10px 25px 0 0;
@@ -28,6 +29,9 @@
         min-height: 200px;
         @media screen and (max-width: 1000px) {
             max-width: 428px;
+        }
+        @media screen and (max-width: 740px) {
+            
         }
     }
 

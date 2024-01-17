@@ -233,7 +233,7 @@ img {
 }
 @media screen and (max-width: 740px) {
   .title {
-    font-size: 36px;
+    font-size: 34px;
   }
 }
 
@@ -250,7 +250,8 @@ img {
 }
 @media screen and (max-width: 740px) {
   .subtitle {
-    font-size: 63px;
+    font-size: 60px;
+    margin-top: -3px;
   }
 }
 
@@ -293,6 +294,11 @@ img {
     min-height: 63px;
   }
 }
+@media screen and (max-width: 740px) {
+  .button {
+    min-width: 393px;
+  }
+}
 
 .advantages {
   margin-top: 90px;
@@ -321,6 +327,11 @@ img {
     max-width: 70px;
   }
 }
+@media screen and (max-width: 740px) {
+  .advantages__img {
+    min-width: 61px;
+  }
+}
 .advantages__txt {
   color: var(--white);
   font-weight: 300;
@@ -329,6 +340,11 @@ img {
 @media screen and (max-width: 1000px) {
   .advantages__txt {
     font-size: 21px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .advantages__txt {
+    font-size: 14px;
   }
 }
 
