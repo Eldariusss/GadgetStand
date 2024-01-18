@@ -8,6 +8,9 @@
     @media  screen and (max-width: 1200px) {
         background-repeat: round;
     }
+    @media screen and (max-width: 740px) {
+        margin-top: 25px;
+    }
     
     &__decor {
         background-image: url(/img/icons/heart_d.svg);

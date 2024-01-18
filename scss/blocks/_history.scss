@@ -5,7 +5,9 @@
         align-items: flex-start;
         justify-content: space-between;
         column-gap: 25px;
-        flex-direction: column-reverse;
+        @media screen and (max-width: 740px) {
+            flex-direction: column-reverse;
+        }
     }
     &__desc {
         margin: 10px 25px 0 0;
@@ -108,6 +110,9 @@
     @media screen and (max-width: 740px) {
         max-width: 561px;
         max-height: 683px;
+    }
+    @media screen and (max-width: 740px) {
+        margin-top: 25px;
     }
 }
 

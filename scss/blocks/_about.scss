@@ -1,4 +1,7 @@
 .about {
+    @media screen and (max-width: 740px) {
+        margin-top: 25px;
+    }
     &__wrapper {
         position: relative;
     }
@@ -14,6 +17,9 @@
             z-index: 1;
             top: -100px;
             right: 88px;
+            @media screen and (max-width: 740px) {
+                top: -88px;
+            }
         }
         &-z3 {
             z-index: 2;
@@ -30,6 +36,17 @@
             }
             &-z3 {
                 right: 59px;
+            }
+        }
+        @media screen and (max-width: 740px) {
+            &-z1 {
+                top: -101px;
+            }
+            &-z2 {
+                top: -88px
+            }
+            &-z3 {
+                right: -16px;
             }
         }
     }
@@ -54,6 +71,10 @@
             width: 391px;
             height: 160px;
         }
+        @media screen and (max-width: 740px) {
+            width: 286px;
+            height: 128px;
+        }
     }
     &__item-svg {
         width: 42px;
@@ -62,6 +83,10 @@
         border-radius: 50%; 
         position: relative;
         margin: 10px 0 0 10px;
+        @media screen and (max-width: 740px) {
+            width: 32px;
+            height: 32px;
+        }
     }
     &__item-svg::before,
     &__item-svg::after {
@@ -74,12 +99,21 @@
         left: 4px; 
         width: 34px; 
         height: 1px;
+        @media screen and (max-width: 740px) {
+            left: 1px;
+            width: 32px;
+        }
+        
     }
     &__item-svg::after {
         left: 50%;
         top: 4px; 
         width: 1px; 
         height: 34px;
+        @media screen and (max-width: 740px) {
+            top: 1px;
+            height: 32px;
+        }
     }
 
     &__item-title {
@@ -89,12 +123,18 @@
         @media screen and (max-width: 1000px) {
             font-size: 26px;
         }
+        @media screen and (max-width: 740px) {
+            font-size: 20px;
+        }
     }
     &__item-subtitle {
         color: var(--black);
         padding-left: 63px;
         @media screen and (max-width: 1000px) {
             font-size: 17px;
+        }
+        @media screen and (max-width: 740px) {
+            font-size: 12px;
         }
     }
     &__make-order-link {
