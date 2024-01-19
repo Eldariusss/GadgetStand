@@ -2,7 +2,7 @@
    &__slider-photo {
     width: 100%;
     @media screen and (max-width: 740px) {
-        width: 73%;
+        width: 65%;
     }
    }
    &__slider-img {
@@ -25,5 +25,9 @@
         align-items: center;
         justify-content: center;
     }
+}
+
+.glide__arrow--right {
+    right: 1.5em;
 }
 
