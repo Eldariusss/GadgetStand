@@ -27,6 +27,9 @@
     &__make-order-link {
         margin-top: 7px;
         min-width: 560px;
+        @media screen and (max-width: 640px) {
+            min-width: 474px;
+        }
     }
     @media screen and (max-width: 740px) {
         margin-left: 85px;
@@ -41,6 +44,9 @@
         min-height: 200px;
         @media screen and (max-width: 1000px) {
             min-width: 428px;
+        }
+        @media screen and (max-width: 640px) {
+            min-width: 348px;
         }
     }
     &__oval {
@@ -61,6 +67,9 @@
             top: -2px;
             left: 44%;
         }
+        @media screen and (max-width: 640px) {
+            width: 392px;
+        }
     }
     
     .oval-angle {
@@ -70,6 +79,9 @@
         @media screen and (max-width: 1000px) {
             top: 36%;
             left: 44%;
+        }
+        @media screen and (max-width: 640px) {
+            width: 392px;
         }
     }
 
@@ -88,11 +100,17 @@
         text-align: center;
         color: var(--green);
         font-weight: 700;
+        @media screen and (max-width: 640px) {
+            font-size: 70px;   
+        }
     }
     &__subtitle {
         color: var(--black);
         text-align: center;
         font-weight: 300; 
+    }
+    @media screen and (max-width: 640px) {
+            font-size: 21px;
     }
 }
 
@@ -112,6 +130,9 @@
     }
     @media screen and (max-width: 740px) {
         margin-top: 25px;
+    }
+    @media screen and (max-width: 640px) {
+         max-width: 451px;   
     }
 }
 

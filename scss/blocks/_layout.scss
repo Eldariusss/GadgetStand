@@ -13,6 +13,9 @@
     &__title {
         color: #4B4B4B;
         font-weight: 400;
+        @media screen and (max-width: 640px) {
+            font-size: 63px;
+        }
     }
     &__title-change {
         @media screen and (max-width: 740px){
