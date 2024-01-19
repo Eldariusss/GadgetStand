@@ -679,6 +679,11 @@ img {
   display: flex;
   justify-content: center;
 }
+@media screen and (max-width: 740px) {
+  .catalog__make-order-link {
+    width: 477px;
+  }
+}
 
 .glide {
   margin-top: 30px;

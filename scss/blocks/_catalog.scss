@@ -15,6 +15,11 @@
     display: flex;
     justify-content: center;
    }
+   &__make-order-link {
+    @media screen and (max-width: 740px) {
+        width: 477px;
+    }
+   }
 }
 
 .glide {
