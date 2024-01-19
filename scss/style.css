@@ -661,8 +661,18 @@ img {
 .catalog__slider-photo {
   width: 100%;
 }
+@media screen and (max-width: 740px) {
+  .catalog__slider-photo {
+    width: 73%;
+  }
+}
 .catalog__slider-img {
   width: 100%;
+}
+@media screen and (max-width: 740px) {
+  .catalog__slider-img {
+    width: 99;
+  }
 }
 .catalog__button-wrapper {
   display: flex;
@@ -694,7 +704,7 @@ img {
 }
 @media screen and (max-width: 740px) {
   .application {
-    margin-top: 25px;
+    margin-top: 60px;
   }
 }
 .application__decor {

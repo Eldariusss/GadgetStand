@@ -1,9 +1,15 @@
 .catalog {
    &__slider-photo {
     width: 100%;
+    @media screen and (max-width: 740px) {
+        width: 73%;
+    }
    }
    &__slider-img {
     width: 100%;
+    @media screen and (max-width: 740px) {
+        width: 99;
+    }
    } 
    &__button-wrapper {
     display: flex;
