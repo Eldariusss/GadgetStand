@@ -10,6 +10,9 @@
     }
     @media screen and (max-width: 740px) {
         margin-top: 60px;
+        position: relative;
+        background-size: cover;
+        background-position: center ;
     }
     
     &__decor {
@@ -17,6 +20,14 @@
         height: 70px;
         margin-top: -52px;
         background-repeat: repeat-x;
+        @media screen and (max-width: 740px) {
+            left: 0;
+            position: absolute;
+            right: 0;
+            transform: translateY(-50%);
+            height: 40px;
+            margin-top: 0px;
+        }
     }
     &__headers {
         display: flex;
@@ -26,11 +37,19 @@
         @media screen and (max-width: 1000px) {
             font-size: 45px;
         }
+        @media screen and (max-width: 740px) {
+            font-size: 40px;
+            margin-top: 36px;
+        }
+        
     }
     &__subtitle {
         margin-top: 20px;
         @media screen and (max-width: 1000px) {
             margin-top: 4px;   
+        }
+        @media screen and (max-width: 740px) {
+            font-size: 40px;   
         }
     }
     &__undersubtitle {
@@ -39,6 +58,9 @@
         @media screen and (max-width: 1000px) {
             font-size: 73px;
             line-height: 60px;   
+        }
+        @media screen and (max-width: 740px) {
+            font-size: 65px;   
         }
     }
     &__form {
@@ -49,6 +71,9 @@
         width: 560px;
         @media screen and (max-width: 1000px) {
             width: 503px;
+        }
+        @media screen and (max-width: 740px) {
+            width: 446px;
         }
     }
     &__input {

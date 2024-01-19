@@ -4,7 +4,6 @@
         justify-content:space-between;
         align-items: flex-end;
     }
-   
     .logo__img {
         @media screen and (max-width: 1000px) {
             max-width: 87%;
@@ -12,10 +11,8 @@
         @media screen and (max-width: 740px) {
                 max-width: 75%;
         }   
-        
     }
 }
-
 
 .menu-main {
     &__list {
@@ -47,6 +44,7 @@
         }
     }
 }
+
 .social-media {
     display: flex;
     flex-flow: row nowrap;
