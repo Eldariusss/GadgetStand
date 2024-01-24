@@ -71,6 +71,10 @@
             width: 286px;
             height: 128px;
         }
+        @media screen and (max-width: 640px) {
+            width: 248px;
+            height: 114px;
+        }
     }
     &__item-svg {
         width: 42px;
@@ -120,6 +124,9 @@
         @media screen and (max-width: 740px) {
             font-size: 20px;
         }
+        @media screen and (max-width: 640px) {
+            font-size: 19px;
+        }
     }
     &__item-subtitle {
         color: var(--black);
@@ -129,6 +136,9 @@
         }
         @media screen and (max-width: 740px) {
             font-size: 12px;
+        }
+        @media screen and (max-width: 640px) {
+            font-size: 10px;
         }
     }
     &__make-order-link {

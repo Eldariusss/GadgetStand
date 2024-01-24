@@ -69,6 +69,9 @@
     @media screen and (max-width: 640px) {
         column-gap: 0px;
     }
+    @media screen and (max-width: 450px) {
+        visibility: hidden;      
+    }
     
     &__img {
         text-decoration: none;

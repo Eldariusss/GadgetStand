@@ -4,6 +4,9 @@
     @media screen and (max-width: 740px) {
         width: 65%;
     }
+    @media screen and (max-width: 450px) {
+         width: 76%;     
+    }
    }
    &__slider-img {
     width: 100%;
@@ -19,6 +22,12 @@
     @media screen and (max-width: 740px) {
         width: 477px;
     }
+    @media screen and (max-width: 640px) {
+        width: 399px;
+    }
+    @media screen and (max-width: 450px) {
+        margin-left: 11px;
+    }
    }
 }
 
@@ -29,6 +38,11 @@
         flex-flow: row nowrap;
         align-items: center;
         justify-content: center;
+    }
+    &__arrows {
+        @media screen and (max-width: 450px) {
+            visibility: hidden;     
+        }
     }
 }
 
