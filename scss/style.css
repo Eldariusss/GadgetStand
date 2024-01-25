@@ -1055,6 +1055,7 @@ img {
 @media screen and (max-width: 450px) {
   .application__form {
     width: 300px;
+    margin-left: 44px;
   }
 }
 .application__input {
@@ -1095,6 +1096,12 @@ img {
   background-image: url(/img/icons/heart.svg);
   margin-top: 48px;
   height: 19px;
+}
+@media screen and (max-width: 450px) {
+  .application__make-order-link {
+    width: 300px;
+    margin-left: -19px;
+  }
 }
 
 .application__input:nth-child(3) {
