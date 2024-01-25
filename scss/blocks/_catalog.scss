@@ -1,5 +1,7 @@
 .catalog {
-    margin-top: 325px;
+    @media screen and (max-width: 450px) {
+        margin-top: 325px;
+    }
    &__slider-photo {
     width: 100%;
     @media screen and (max-width: 740px) {
