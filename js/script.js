@@ -10,3 +10,8 @@ const config = {
 
 
 new Glide('.glide', config).mount();
+
+function toggleMenu() {
+    let menu = document.querySelector('.menu-main');
+    menu.classList.toggle('show');
+}

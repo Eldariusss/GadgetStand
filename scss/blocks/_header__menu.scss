@@ -6,6 +6,18 @@
         @media screen and (max-width: 640px) {
             padding-top: 11px;   
         }
+        @media screen and (max-width:450px) {
+            position: relative;
+        }
+
+    }
+    &__menu-icon {
+        cursor: pointer;
+        display: none;
+        margin-right: -91%;
+        @media screen and (max-width:450px) {
+            display: block;
+        }
     }
     .logo__img {
         @media screen and (max-width: 1000px) {
@@ -25,6 +37,15 @@
         display: flex;
         @media screen and (max-width: 740px) {
             margin-left: -50px;
+        }
+        @media screen and (max-width:450px) {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            background-color: #333;
+            width: 100%;
         }
     }
     &__item {
@@ -54,6 +75,12 @@
     }
 }
 
+.menu-main.show {
+    @media screen and (max-width:450px) {
+        display: flex;
+    }
+
+}
 .social-media {
     display: flex;
     flex-flow: row nowrap;
