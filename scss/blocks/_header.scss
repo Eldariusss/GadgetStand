@@ -7,14 +7,8 @@
     background-color: var(--bg-green);
     background-blend-mode: multiply; 
     padding: 30px 0 0 0;
-    @media screen and (max-width: 640px) {
-        padding: 0px;       
-    }
-    @media screen and (max-width: 450px) {
-        background-size: auto;
-    }   
     &__footer {
-        margin-top: 55px;
+        margin-top: 9%;
         background-image: url(/img/icons/heart.svg);
         height: 19px;
     }

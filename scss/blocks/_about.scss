@@ -8,59 +8,19 @@
     &__item {
         position: absolute;
         &-z1 {
-            top: -144px;
-            left: 0px;
+            top: -24%;
+            left: 0%;
             z-index: 2;
         }
         &-z2 {
             z-index: 1;
-            top: -100px;
-            right: 88px;
-            @media screen and (max-width: 740px) {
-                top: -88px;
-            }
+            top: -18%;
+            right: 3%;
         }
         &-z3 {
             z-index: 2;
-            bottom: 107px;
-            right: 199px;
-            @media screen and (max-width: 1000px) {
-                right: 28px;
-            }
-        }
-        @media screen and (max-width: 1200px) {
-            &-z2 {
-                right: 5px;
-                top: -114px;
-            }
-            &-z3 {
-                right: 59px;
-            }
-        }
-        @media screen and (max-width: 740px) {
-            &-z1 {
-                top: -101px;
-            }
-            &-z2 {
-                top: -88px
-            }
-            &-z3 {
-                right: -16px;
-            }
-        }
-        @media screen and (max-width: 450px) {
-            &-z1 {
-                top: -125px;
-                left: 50px;
-            }
-            &-z2 {
-                top:152px;
-                left:50px;
-            }
-            &-z3 {
-                top: 433px;
-                left: 50px;
-            }
+            bottom: 18%;
+            right: 10%;
         }
     }
     &__image {
@@ -76,23 +36,6 @@
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.20) 0%, rgba(223, 224, 226, 0.20) 0.01%, rgba(143, 145, 149, 0.20) 100%);
         box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.11);
         backdrop-filter: blur(10.5px); 
-        @media screen and (max-width: 1000px) {
-            width: 391px;
-            height: 160px;
-        }
-        @media screen and (max-width: 740px) {
-            width: 286px;
-            height: 128px;
-        }
-        @media screen and (max-width: 640px) {
-            width: 248px;
-            height: 114px;
-        }
-        @media screen and (max-width: 450px) {
-            width: 300px;
-            height: 180px;
-        }
-        
     }
     &__item-svg {
         width: 42px;
@@ -170,12 +113,10 @@
         top:-108px;
         z-index: 2;
         @media screen and (max-width: 450px) {
-            visibility: hidden;
+            display: none;
         }    
     }
-    
-}
-
+}   
 .about__item-subtitle {
     b{
      font-weight: 600;  
