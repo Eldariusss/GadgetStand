@@ -139,6 +139,8 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  max-width: 100%;
+  gap: 20px;
 }
 @media screen and (max-width: 640px) {
   .header__menu {
@@ -158,11 +160,6 @@ img {
 @media screen and (max-width: 450px) {
   .header__menu-icon {
     display: block;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .header .logo__img {
-    max-width: 80%;
   }
 }
 @media screen and (max-width: 740px) {
