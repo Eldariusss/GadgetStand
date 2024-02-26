@@ -454,9 +454,9 @@ img {
   font-weight: 300;
   flex: 1;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .advantages__txt {
-    font-size: 21px;
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 740px) {
@@ -480,13 +480,14 @@ img {
   flex-flow: row nowrap;
   align-items: flex-start;
   justify-content: space-between;
-  -moz-column-gap: 25px;
-       column-gap: 25px;
+  -moz-column-gap: 5%;
+       column-gap: 5%;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .history__wrapper {
-    -moz-column-gap: 0px;
-         column-gap: 0px;
+    -moz-column-gap: 0%;
+         column-gap: 0%;
+    margin-top: 3%;
   }
 }
 @media screen and (max-width: 740px) {
@@ -497,11 +498,6 @@ img {
 .history__desc {
   margin: 10px 25px 0 0;
   display: flex;
-}
-@media screen and (max-width: 1000px) {
-  .history__desc {
-    margin-right: -54px;
-  }
 }
 @media screen and (max-width: 740px) {
   .history__desc {
@@ -544,9 +540,9 @@ img {
   min-width: 490px;
   min-height: 200px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .history-item__wrapper {
-    min-width: 428px;
+    margin-left: 4%;
   }
 }
 @media screen and (max-width: 640px) {
@@ -567,7 +563,7 @@ img {
   border: 1px solid #9EAF7C;
   border-radius: 50%;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .history-item__oval {
     width: 439px;
   }
@@ -583,10 +579,10 @@ img {
   left: 50%;
   transform: translateX(-50%);
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .history-item .oval-center {
-    top: -2px;
-    left: 44%;
+    top: 1%;
+    left: 50%;
   }
 }
 @media screen and (max-width: 640px) {
@@ -604,10 +600,10 @@ img {
   left: 50%;
   transform: translate(-50%, -50%) rotate(-10deg);
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .history-item .oval-angle {
-    top: 36%;
-    left: 44%;
+    top: 33%;
+    left: 50%;
   }
 }
 @media screen and (max-width: 640px) {
@@ -625,10 +621,10 @@ img {
   left: 50%;
   transform: translate(-50%, -50%) rotate(10deg);
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .history-item .even {
     top: 36%;
-    left: 44%;
+    left: 50%;
   }
 }
 .history-item__title {
@@ -671,7 +667,7 @@ img {
   max-width: 561px;
   max-height: 683px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .photo__img {
     max-width: 388px;
     min-height: 551px;

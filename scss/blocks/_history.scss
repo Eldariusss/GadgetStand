@@ -4,9 +4,10 @@
         flex-flow: row nowrap;
         align-items: flex-start;
         justify-content: space-between;
-        column-gap: 25px;
-        @media screen and (max-width: 1000px) {
-            column-gap: 0px;
+        column-gap: 5%;
+        @media screen and (max-width: 1024px) {
+            column-gap: 0%;
+            margin-top: 3%;
         }
         @media screen and (max-width: 740px) {
             flex-direction: column-reverse;
@@ -15,8 +16,8 @@
     &__desc {
         margin: 10px 25px 0 0;
         display: flex;
-        @media screen and (max-width: 1000px) {
-            margin-right: -54px;
+        @media screen and (max-width: 1024px) {
+            
         }
         @media screen and (max-width: 740px) {
             margin-right: 0px;
@@ -51,8 +52,8 @@
         position: relative;
         min-width: 490px;
         min-height: 200px;
-        @media screen and (max-width: 1000px) {
-            min-width: 428px;
+        @media screen and (max-width: 1024px) {
+            margin-left: 4%;
         }
         @media screen and (max-width: 640px) {
             min-width: 348px;
@@ -68,7 +69,7 @@
         height: 126px;
         border:  1px solid #9EAF7C;
         border-radius: 50%;
-        @media screen and (max-width: 1000px) {
+        @media screen and (max-width: 1024px) {
             width: 439px;
         }
         @media screen and (max-width: 450px) {
@@ -80,9 +81,9 @@
         top:15px;
         left: 50%;
         transform: translateX(-50%);
-        @media screen and (max-width: 1000px) {
-            top: -2px;
-            left: 44%;
+        @media screen and (max-width: 1024px) {
+            top: 1%;
+            left: 50%;
         }
         @media screen and (max-width: 640px) {
             width: 392px;
@@ -96,9 +97,9 @@
         top: 40%;
         left: 50%;
         transform: translate(-50%, -50%) rotate(-10deg);
-        @media screen and (max-width: 1000px) {
-            top: 36%;
-            left: 44%;
+        @media screen and (max-width: 1024px) {
+            top: 33%;
+            left: 50%;
         }
         @media screen and (max-width: 640px) {
             width: 392px;
@@ -112,9 +113,9 @@
         top: 40%;
         left: 50%;
         transform: translate(-50%, -50%) rotate(10deg);
-        @media screen and (max-width: 1000px) {
+        @media screen and (max-width: 1024px) {
             top: 36%;
-            left: 44%;
+            left: 50%;
         }
 
     }
@@ -150,7 +151,7 @@
 .photo__img {
     max-width: 561px;
     max-height: 683px;
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1024px) {
         max-width: 388px;
         min-height: 551px;
         margin-left: -28px;
