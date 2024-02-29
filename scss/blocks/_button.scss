@@ -14,9 +14,10 @@
     min-width: 450px;
     min-height: 63px; 
   }
-  @media screen and (max-width: 740px) {
+  @media screen and (max-width: 767px) {
     min-width: 393px;
     min-height: 58px;
+    margin-left: 15px;
   }
   @media screen and (max-width: 640px) {
     min-width: 345px;
