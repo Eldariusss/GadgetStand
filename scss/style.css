@@ -495,23 +495,23 @@ img {
 }
 
 .history__wrapper {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: flex-start;
-  justify-content: space-between;
+  align-items: stretch;
 }
-.history__wapper-block {
-  width: 49%;
-}
-.history__desc {
+.history__wrapper-block {
   display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  justify-content: flex-start;
 }
 .history__make-order-link {
   margin-top: 7px;
   min-width: 560px;
 }
 .history__photo {
-  width: 49%;
+  width: 45%;
+}
+.history__make-order-link {
+  margin-top: auto;
 }
 
 .history-item {

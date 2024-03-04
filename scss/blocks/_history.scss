@@ -1,24 +1,23 @@
 .history {
     &__wrapper {
-        display: flex;
-        flex-flow: row nowrap;
-        align-items: flex-start;
-        justify-content: space-between;
+        align-items: stretch;
       
-        
     }
-    &__wapper-block {
-        width: 49%;
-    }
-    &__desc {
+    &__wrapper-block {
         display: flex;
+        flex-flow: column nowrap;
+        align-items: stretch;
+        justify-content: flex-start;
     }
     &__make-order-link {
         margin-top: 7px;
         min-width: 560px;
     }
     &__photo {
-        width: 49%;
+        width: 45%;
+    }
+    &__make-order-link {
+        margin-top: auto;
     }
     
 }
