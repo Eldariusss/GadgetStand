@@ -495,13 +495,19 @@ img {
 }
 
 .history__wrapper {
-  align-items: stretch;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
 }
 .history__wrapper-block {
   display: flex;
   flex-flow: column nowrap;
   align-items: stretch;
   justify-content: flex-start;
+  width: 49%;
+}
+.history__desc {
+  display: flex;
 }
 .history__make-order-link {
   margin-top: 7px;

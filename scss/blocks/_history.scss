@@ -1,6 +1,8 @@
 .history {
     &__wrapper {
-        align-items: stretch;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
       
     }
     &__wrapper-block {
@@ -8,6 +10,10 @@
         flex-flow: column nowrap;
         align-items: stretch;
         justify-content: flex-start;
+        width: 49%;
+    }
+    &__desc {
+        display: flex;
     }
     &__make-order-link {
         margin-top: 7px;
