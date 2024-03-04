@@ -500,6 +500,9 @@ img {
   align-items: flex-start;
   justify-content: space-between;
 }
+.history__wapper-block {
+  width: 49%;
+}
 .history__desc {
   display: flex;
 }
@@ -508,7 +511,7 @@ img {
   min-width: 560px;
 }
 .history__photo {
-  width: 100%;
+  width: 49%;
 }
 
 .history-item {

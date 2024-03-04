@@ -7,6 +7,9 @@
       
         
     }
+    &__wapper-block {
+        width: 49%;
+    }
     &__desc {
         display: flex;
     }
@@ -15,7 +18,7 @@
         min-width: 560px;
     }
     &__photo {
-        width: 100%;
+        width: 49%;
     }
     
 }
