@@ -507,6 +507,9 @@ img {
   margin-top: 7px;
   min-width: 560px;
 }
+.history__photo {
+  width: 100%;
+}
 
 .history-item {
   width: 87%;
