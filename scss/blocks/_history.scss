@@ -17,18 +17,20 @@
     }
     &__make-order-link {
         margin-top: 7px;
-        min-width: 560px;
     }
     &__photo {
-        width: 45%;
+        width: 48%;
     }
     &__make-order-link {
         margin-top: auto;
     }
-    
+    &__title {
+        margin-bottom: 7%;
+    }
 }
 .history-item {
     width: 87%;
+    margin-bottom: 9%;
     &__wrapper {
         position: relative;
     }

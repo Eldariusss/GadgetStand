@@ -390,12 +390,13 @@ img {
   text-align: center;
   font-weight: 400;
   text-decoration: none;
-  min-width: 560px;
+  min-width: unset;
+  width: 100%;
   min-height: 68px;
   border-radius: 20px;
   background: var(--green);
   display: inline-block;
-  padding: 20px 0;
+  padding: 23px 0;
   margin-top: 70px;
 }
 @media screen and (max-width: 1000px) {
@@ -511,17 +512,20 @@ img {
 }
 .history__make-order-link {
   margin-top: 7px;
-  min-width: 560px;
 }
 .history__photo {
-  width: 45%;
+  width: 48%;
 }
 .history__make-order-link {
   margin-top: auto;
 }
+.history__title {
+  margin-bottom: 7%;
+}
 
 .history-item {
   width: 87%;
+  margin-bottom: 9%;
 }
 .history-item__wrapper {
   position: relative;
