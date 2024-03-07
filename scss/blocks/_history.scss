@@ -3,6 +3,9 @@
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
+        @media screen and (max-width: 985px) {
+            column-gap: 10%;
+        }
       
     }
     &__wrapper-block {
@@ -46,11 +49,23 @@
         text-align: center;
         color: var(--green);
         font-weight: 700;
+        @media screen and (max-width: 1121px) {
+            font-size: 80px;
+        }
+    }
+    &__title-last {
+        font-size: 80px;
+        @media screen and (max-width: 1121px) {
+            font-size: 42px;
+        }
     }
     &__subtitle {
         color: var(--black);
         text-align: center;
         font-weight: 300; 
+        @media screen and (max-width: 1121px) {
+            font-size: 18px;
+        }
     }
 }
 
