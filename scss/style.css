@@ -359,6 +359,11 @@ img {
   color: #4B4B4B;
   font-weight: 400;
 }
+@media screen and (max-width: 1121px) {
+  .section__title {
+    font-size: 70px;
+  }
+}
 @media screen and (max-width: 640px) {
   .section__title {
     font-size: 63px;
@@ -490,9 +495,6 @@ img {
   }
 }
 
-.history__title {
-  font-size: 70px;
-}
 .history__wrapper {
   display: flex;
   flex-flow: row nowrap;
