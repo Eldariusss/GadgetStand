@@ -407,8 +407,8 @@ img {
 }
 @media screen and (max-width: 767px) {
   .button {
-    min-width: 393px;
-    min-height: 58px;
+    width: 70%;
+    min-height: 59px;
     margin-left: 15px;
   }
 }
